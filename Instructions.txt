@@ -1,0 +1,8 @@
+Run Angular Client: ng serve
+
+Run NestJS API: npm run start:dev
+http://localhost:3000
+
+Run Karma Tests:
+
+Generate Angular Documentation: sudo npx compodoc -p tsconfig.app.json
