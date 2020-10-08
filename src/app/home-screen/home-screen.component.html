@@ -1,1 +1,22 @@
-<p>home-screen works!</p>
+<splash-screen></splash-screen>
+
+<mat-drawer-container class="example-container" hasBackdrop="true">
+
+  <mat-drawer #drawer mode="over">
+    <app-side-navbar></app-side-navbar>
+  </mat-drawer>
+
+  <mat-drawer-content>
+    <mat-toolbar>
+      <button mat-icon-button color="primary" (click)="drawer.toggle()">
+        <mat-icon>menu</mat-icon>
+      </button>
+    </mat-toolbar>
+
+    <!-- page content here -->
+  </mat-drawer-content>
+</mat-drawer-container>
+
+
+
+

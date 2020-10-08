@@ -1,5 +1,5 @@
 .app-splash-screen {
-  background: #dc9eae;
+  background: mediumblue;
   position: fixed;
   top: 0;
   left: 0;
@@ -14,12 +14,6 @@
   transition: left 0.5s;
 }
 
-.app-label {
-  margin-top: 32px;
-  color: #fff;
-  font-size: 2.5em;
-  font-family: "Pacifico", cursive;
-}
 
 .app-splash-inner {
   display: flex;
