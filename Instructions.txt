@@ -6,3 +6,5 @@ http://localhost:3000
 Run Karma Tests:
 
 Generate Angular Documentation: sudo npx compodoc -p tsconfig.app.json
+
+Install Dependencies: npm install --save --legacy-peer-deps
